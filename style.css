@@ -5,6 +5,10 @@
     font-family:"poppins" , sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -54,7 +58,7 @@ main {
     border-radius: 20px;
 }
 
-.welcome {
+.welcomegi {
     display: flex;
     justify-content: space-between;
 }
@@ -69,3 +73,15 @@ main {
     background-position: center;
 }
 
+.text-div h1 {
+    text-align: center;
+    padding: 100px 50px 40px;
+    font-size: 40px;
+    color: white;
+}
+
+.text-div p {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
