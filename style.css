@@ -14,7 +14,7 @@ html {
     justify-content: space-between;
     margin: 0px 230px;
     background-color: green;
-    height: 6vh;
+    height: 6.7vh;
 }
 
 .logo {
@@ -51,11 +51,11 @@ html {
 }
 
 main {
-    margin: 100px 230px;
+    margin: 100px 230px 0 230px;
     border: 1px solid rgb(220, 215, 215);
-    height: 100vh;
     background-color: aliceblue;
-    border-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 .welcomegi {
@@ -65,7 +65,8 @@ main {
 
 .text-div {
     border: none;
-    border-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
     padding: 30px;
     height: 50vh;
     background-image: url(images/hero1.jpg);
@@ -85,3 +86,92 @@ main {
     color: #fff;
     font-size: 20px;
 }
+
+.text-div button {
+    width: 200px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: yellow;
+    padding: 15px;
+    margin:70px 0px 30px 470px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+    border-top-right-radius:20px ;
+    border-bottom-left-radius:20px ;
+}
+
+.text-div button:hover {
+    background-color: green;
+    color: white;
+}
+
+.about {
+    margin: 100px 0 0 0;
+    padding: 30px;
+    background-color: green;
+    color: #fff;
+}
+
+.about h1 {
+    text-align: center;
+    padding: 40px 0px 10px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: yellow;
+}
+
+.about .center {
+    text-align: center;
+}
+
+.about h3 {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 30px;
+    color: yellow;
+    margin-bottom: 30px;
+}
+
+
+.leader-img {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leader-img h6 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.projects {
+    margin-top: 100px;
+    padding: 30px;
+    background-color: red;
+    color: #fff;
+}
+
+.projects h1 {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.groups-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.group1 {
+    margin-bottom: 100px;
+}
+
+.group1 img {
+    width: 550px;
+    height: 400px;
+}
+
