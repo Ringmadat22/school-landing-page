@@ -8,5 +8,39 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    margin: 10px;
+    margin: 0px 230px;
+    background-color: green;
+    height: 6vh;
+}
+
+.logo {
+    padding: 10px;
+    color: yellow;
+    padding-left: 20px;
+}
+
+.nav-items {
+    display: flex;
+    padding: 0px;
+}
+
+.nav-links {
+    padding: 20px 30px;
+    list-style: none;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.nav-links:hover {
+    background-color: red;
+}
+
+.active {
+    background-color: red;
+    padding: 20px;
+}
+
+.nav-links a {
+    color: yellow;
+    text-decoration: none;
 }
