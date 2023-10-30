@@ -45,3 +45,27 @@
     color: yellow;
     text-decoration: none;
 }
+
+main {
+    margin: 100px 230px;
+    border: 1px solid rgb(220, 215, 215);
+    height: 100vh;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+.welcome {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-div {
+    border: none;
+    border-radius: 20px;
+    padding: 30px;
+    height: 50vh;
+    background-image: url(images/hero1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
