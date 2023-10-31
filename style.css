@@ -29,14 +29,14 @@ html {
     padding: 0px;
 }
 
-.nav-links {
+li {
     padding: 20px 30px;
     list-style: none;
     cursor: pointer;
     transition: all ease 0.3s;
 }
 
-.nav-links:hover {
+li:hover {
     background-color: red;
 }
 
@@ -175,3 +175,25 @@ main {
     height: 400px;
 }
 
+.gallery {
+    margin-top: 100px;
+    background-color: yellow;
+    padding: 30px;
+}
+
+.gallery h1 {
+    margin-top:50px;
+    text-align: center;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+
+.gallery-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-div  img{
+    width: 350px;
+    height: 300px;
+}
