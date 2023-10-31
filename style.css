@@ -214,11 +214,24 @@ main {
 }
 
 .contact-details {
-    border: 1px solid red;
+    border:none;
     width: 600px;
 }
 
-.contact-details p {}
+.contact-details span {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contact-details span p {
+    padding: 20px 0;
+}
+
+.contact-details span p i {
+    padding-right: 20px;
+}
 
 .contact-form {
     border: none;
