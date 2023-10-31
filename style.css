@@ -94,7 +94,7 @@ main {
     outline: none;
     background-color: red;
     color: yellow;
-    padding: 15px;
+    padding: 10px;
     margin:70px 0px 30px 470px;
     cursor: pointer;
     transition: all ease 0.3s;
@@ -150,8 +150,8 @@ main {
 .projects {
     margin-top: 100px;
     padding: 30px;
-    background-color: red;
-    color: #fff;
+    background-color:yellow;
+    color: green;
 }
 
 .projects h1 {
@@ -177,7 +177,7 @@ main {
 
 .gallery {
     margin-top: 100px;
-    background-color: yellow;
+    background-color: red;
     padding: 30px;
 }
 
@@ -196,4 +196,71 @@ main {
 .gallery-div  img{
     width: 350px;
     height: 300px;
+}
+
+.contact {
+    padding: 0px;
+    background-color: blue;
+    margin-top: 100px;
+    height: 40vh;
+    color: #fff;
+}
+
+.contact-container {
+    border:none;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.contact-details {
+    border: 1px solid red;
+    width: 300px;
+    height: 300px;
+}
+
+.contact-details p {}
+
+.contact-form {
+    border: none;
+    width: 600px;
+    padding: 0px;
+}
+
+.contact-form input[type="text"] {
+    width: 500px;
+    font-size: 13px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    margin: 10px 0;
+    caret-color: gray;
+}
+
+.contact-form textarea {
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 7px;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: #fff;
+    border-top-right-radius:20px ;
+    border-bottom-left-radius:20px ;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all ease 0.3s;
+}
+button[type="submit"]:hover {
+    background-color: green;
 }
