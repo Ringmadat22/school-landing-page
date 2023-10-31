@@ -187,6 +187,7 @@ main {
     text-align: center;
     margin-bottom: 50px;
     text-decoration: underline;
+    color: #fff;
 }
 
 .gallery-div {
@@ -202,84 +203,32 @@ main {
 .contact {
     padding: 0px;
     background-color: blue;
-    margin-top: 100px;
-    height: 40vh;
+    height: 10vh;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    margin:100px 230px 0;
+    border-radius: 0px;
 }
 
 .contact-container {
     border:none;
+    width: 600px;
     display: flex;
-    padding: 30px;
-    justify-content: space-between;
-}
-
-.contact-details {
-    border:none;
-    width: 600px;
-}
-
-.contact-details span {
-    display: block;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
-    padding-top: 100px;
+    height: 100%;
+    padding-top: 40px;
 }
 
-.contact-details span p {
-    padding: 20px 0;
+.contact-container p {
+    font-size: 20px;
 }
 
-.contact-details span p i {
-    padding-right: 20px;
-}
 
-.contact-form {
-    border: none;
-    width: 600px;
-    padding: 0px;
-}
-
-.contact-form input[type="text"] {
-    width: 500px;
-    font-size: 13px;
-    padding: 10px 15px;
-    border: none;
-    outline: none;
-    border-radius: 7px;
-    margin: 10px 0;
-    caret-color: gray;
-}
-
-.contact-form textarea {
-    border: none;
-    outline: none;
-    padding: 15px;
-    font-size: 14px;
-    border-radius: 7px;
-}
-
-button[type="submit"] {
-    padding: 10px;
-    text-align: center;
-    width: 200px;
-    border: none;
-    outline: none;
-    background-color: red;
-    color: #fff;
-    border-top-right-radius:20px ;
-    border-bottom-left-radius:20px ;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 10px;
-    transition: all ease 0.3s;
-}
-button[type="submit"]:hover {
-    background-color: green;
-}
 
 footer {
-    margin: 100px 230px 0;
+    margin: 0 230px 0;
     padding: 40px;
     background-color: gray;
     text-align: center;
